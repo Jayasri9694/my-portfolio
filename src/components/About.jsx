@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./About.css";
 
 const About = () => {
@@ -23,7 +24,7 @@ const About = () => {
           <p className="about-text">
             Let's build something amazing together! 🚀
           </p>
-          <a href="/contact" className="btn">Contact Me</a>
+          <Link to="/contact" className="btn">Contact Me</Link>
         </div>
         <div className="about-image">
           <img src="/images/profile.jpg" alt="MERN Developer" />
