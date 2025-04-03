@@ -1,9 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Home.css";
 import profilePic from "../assets/profile.jpg"; 
 
 const Home = () => {
+  const navigate = useNavigate(); // Hook for navigation
+
   return (
     <section className="home container">
       <div className="row align-items-center">
@@ -17,7 +20,7 @@ const Home = () => {
           <h1>Hi, I'm <span className="highlight">Jayashree Kumaresan</span></h1>
           <h2 className="text-success">Full Stack MERN Developer</h2>
           <p>
-            Passionate about building scalable and efficient web applications using **MongoDB, Express.js, React, and Node.js**. Experienced in designing full-stack solutions, integrating RESTful APIs, and ensuring optimal performance.
+            Passionate about building scalable and efficient web applications using <strong>MongoDB, Express.js, React, and Node.js</strong>. Experienced in designing full-stack solutions, integrating RESTful APIs, and ensuring optimal performance.
           </p>
           <div className="buttons">
             <a href="https://drive.google.com/file/d/1ntzd3KotAtLq1Pcwhy-lIlnyMPQx5jZO/view?usp=drive_link" 
@@ -26,9 +29,9 @@ const Home = () => {
               className="btn btn-success me-3">
               My Resume
             </a>
-            <a href="#" className="btn btn-outline-success">
+            <button onClick={() => navigate("/projects")} className="btn btn-outline-success">
               See Projects
-            </a>
+            </button>
           </div>
         </div>
       </div>
