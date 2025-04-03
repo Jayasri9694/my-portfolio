@@ -1,0 +1,39 @@
+.home {
+  padding: 80px 0;
+}
+
+.profile-img {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  border: 5px solid #ff0077; /* Green border */
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-family: poppins;
+}
+
+.highlight {
+  color: #ff0077; /* Green Highlight */
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.buttons .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}

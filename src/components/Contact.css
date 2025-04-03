@@ -1,0 +1,118 @@
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121212;
+    padding: 80px 20px;
+  }
+  
+  .contact-container {
+    width: 100%;
+    max-width: 600px;
+    background: #121212;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(255, 250, 250, 0.368);
+    border-radius: 10px;
+    text-align: center;
+  }
+  /* Heading */
+  .contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fffbfb;
+  }
+  
+  .contact-container p {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* Success Message */
+  .success-message {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input-group input:focus,
+  .input-group textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  /* Button */
+  .btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Social Links */
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color: #007bff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 20px;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
