@@ -1,7 +1,7 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Home.css";
-import profilePic from "../assets/profile.jpg"; // Replace with actual profile image
+import profilePic from "../assets/profile.jpg"; 
 
 const Home = () => {
   return (
