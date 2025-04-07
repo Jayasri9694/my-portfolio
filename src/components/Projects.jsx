@@ -27,7 +27,7 @@ const projects = [
     id: 4,
     title: "Simple Portfolio",
     description: "A clean HTML, CSS, React, and JavaScript portfolio.",
-    demoLink: "/projects/portfolio/index.html",
+    demoLink: "https://clever-cranachan-9f29ce.netlify.app",
     githubLink: "https://github.com/yourgithub/portfolio-html",
   },
 ];
