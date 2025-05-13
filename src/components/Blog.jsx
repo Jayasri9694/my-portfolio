@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blog.css";
 
-const blogPosts = [
+const blogs = [
   {
     id: 1,
     title: "Optimizing Node.js Backend Performance",
@@ -30,20 +30,16 @@ const blogPosts = [
 
 const Blog = () => {
   return (
-    <section className="blog" id="blog">
+    <section id="blog" className="blog">
       <div className="blog-container">
-        <h2 className="blog-title">
-          My <span>Blog</span>
-        </h2>
+        <h2 className="blog-title">My <span>Blog</span></h2>
         <div className="blog-posts">
-          {blogPosts.map((post) => (
-            <div key={post.id} className="blog-card">
-              <h3 className="blog-post-title">{post.title}</h3>
-              <p className="blog-date">{post.date}</p>
-              <p className="blog-description">{post.description}</p>
-              <a href={post.link} className="btn">
-                Read More
-              </a>
+          {blogs.map((blog, index) => (
+            <div className="blog-card" key={index}>
+              <h3 className="blog-post-title">{blog.title}</h3>
+              <p className="blog-date">{blog.date}</p>
+              <p className="blog-description">{blog.description}</p>
+              <a className="btn" href={blog.link} target="_blank" rel="noopener noreferrer">Read More</a>
             </div>
           ))}
         </div>

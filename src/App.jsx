@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
-import "./styles.css";
+import "./App.css";
 const App = () => {
   return (
     <Router>
