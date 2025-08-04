@@ -23,7 +23,7 @@ const Home = () => {
             Passionate about building scalable and efficient web applications using <strong>MongoDB, Express.js, React, and Node.js</strong>. Experienced in designing full-stack solutions, integrating RESTful APIs, and ensuring optimal performance.
           </p>
           <div className="buttons">
-            <a href="https://drive.google.com/file/d/1ntzd3KotAtLq1Pcwhy-lIlnyMPQx5jZO/view?usp=drive_link" 
+            <a href="https://drive.google.com/file/d/1N_HFzyGBu4DNY7Sb5R2emC9Ee1FUr_Tx/view?usp=drive_link" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-success me-3">
